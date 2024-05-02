@@ -19,13 +19,13 @@
 
 .header__nav {
     font-weight: bold;
-    flex-grow: 1; /* розтягнутий на весь вільний простір */
-    text-align: center; /* вирівнювання тексту по центру */
+    flex-grow: 1;
+    text-align: center;
 }
 
 .header__nav ul {
     display: flex;
-    justify-content: center; /* вирівнювання елементів у центрі */
+    justify-content: center;
     gap: 20px;
 }
 
@@ -42,22 +42,22 @@
     background-color: green;
 }
 .about__text {
-    float: left; /* Зміщення тексту вліво */
-    margin-right: 20px; /* Відступ справа */
-    text-align: justify; /* Вирівнюємо текст по центру */
+    float: left;
+    margin-right: 20px;
+    text-align: justify;
 }
 
 .about__image {
     float: left;
-    margin-right: 20px; /* Додатковий відступ між зображеннями */
+    margin-right: 20px;
 }
 
 .line {
-    width: 100%; /* Задаємо ширину лінії на всю ширину */
-    background-color: lightgray; /* Колір лінії */
-    height: 1px; /* Товщина лінії */
-    margin-top: 20px; /* Відступ від заголовка */
-    margin-bottom: 150px; /* Відступ від контенту */
+    width: 100%;
+    background-color: lightgray;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 150px;
 }
 body {
     margin: 20px;
@@ -69,8 +69,8 @@ body {
     float: left;
 }
 .item_last-child {
-    position: relative; /* Встановлюємо позицію відносної */
-    top: -150px; /* Піднімаємо вище на 20px */
+    position: relative;
+    top: -150px;
 }
 .shop-button {
     background-color: green;
@@ -79,7 +79,7 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 40px; /* додатковий відступ від тексту */
+    margin-top: 40px;
 }
 
 .shop-button:hover {
