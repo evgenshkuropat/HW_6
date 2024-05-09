@@ -109,3 +109,16 @@ body {
 .btn:hover {
     background-color: #36d755;
 }
+
+.header__nav a {
+    color: #000000;
+}
+
+.header__btn a {
+    color: #FFFFFF;
+}
+
+.shop-button a {
+    color: #FFFFFF;
+
+}
