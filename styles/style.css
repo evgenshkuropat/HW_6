@@ -2,11 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
-    color: black;
+    color: green;
 }
 
 .header__logo {
@@ -21,6 +20,7 @@
     font-weight: bold;
     flex-grow: 1;
     text-align: center;
+    color: #3D3D3D;
 }
 
 .header__nav ul {
@@ -32,7 +32,6 @@
 .login-button {
     background-color: green;
     color: white;
-    border: none;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -62,7 +61,8 @@
 body {
     margin: 20px;
     font-family: Arial, "Comic Sans MS";
-    }
+}
+
 .item {
     width: 50%;
     display: inline-block;
@@ -83,8 +83,29 @@ body {
 }
 
 .shop-button:hover {
+    color: #FFFFFF;
     background-color: green;
 }
 .gray-text {
     color: gray;
+}
+.header__btn {
+    width: 100px;
+    height: 35px;
+    background-color: #46A358;
+    color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    padding: 8px 7px 7px 15px;
+}
+
+.header__btn img {
+    width: 20px;
+    height: 20px;
+}
+.btn:hover {
+    background-color: #36d755;
 }
